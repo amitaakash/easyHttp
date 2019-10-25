@@ -27,7 +27,7 @@ class EasyHTTP {
 
     // HTTP POST request
 
-    post(url){
+    post(url, data){
         const promise = new Promise((resolve, reject) => {
             fetch(url, 
                 {
@@ -47,7 +47,7 @@ class EasyHTTP {
 
     // HTTP PUT request
 
-    put(url){
+    put(url, data){
         const promise = new Promise((resolve, reject) => {
             fetch(url, 
                 {
